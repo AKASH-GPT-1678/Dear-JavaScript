@@ -41,3 +41,4 @@ let fruits = ["apple", "banana", "mango"];
 for (let fruit of fruits) {
   console.log(fruit);
 }
+customElements.define("my-element", class extends HTMLElement {});

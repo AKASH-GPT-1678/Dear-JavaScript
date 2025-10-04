@@ -1,0 +1,14 @@
+p + p {
+    color: red;
+    background-color: yellow;
+}
+a[href="https://www.google.com"] {
+    color: red;
+    background-color: yellow;
+}
+img[alt="digital"] {
+    color: red;
+    background-color: yellow;
+    height: 100px;
+    width: 100px
+}

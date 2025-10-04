@@ -13,7 +13,7 @@ function sum(a, b) {
 function Args() {
     console.log(arguments);
 }
-
+////
 
 let arryVal = [23, 34, 65, 88];
 
