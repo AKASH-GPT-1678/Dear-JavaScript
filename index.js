@@ -34,3 +34,10 @@ try {
 
 console.log("My Directory" , __dirname);
 console.log("My File" , __filename);
+
+
+let fruits = ["apple", "banana", "mango"];
+
+for (let fruit of fruits) {
+  console.log(fruit);
+}
