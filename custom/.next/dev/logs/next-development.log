@@ -1,0 +1,101 @@
+[00:00:00.656] Server  LOG     It looks like you're trying to use TypeScript but do not have the required package(s) installed.
+Installing dependencies
+
+If you are not trying to use TypeScript, please remove the tsconfig.json file from your package root (and any TypeScript files in your app and pages directories).
+
+[00:00:00.675] Server  LOG     
+[00:00:00.675] Server  LOG     Installing devDependencies (pnpm):
+[00:00:00.675] Server  LOG     - typescript
+[00:00:00.676] Server  LOG     - @types/react
+[00:00:00.676] Server  LOG     - @types/node
+[00:00:00.676] Server  LOG     
+[00:00:05.711] Server  LOG     
+[00:00:05.716] Server  LOG     
+[00:00:05.717] Server  LOG        We detected TypeScript in your project and created a tsconfig.json file for you.
+[00:00:05.823] Server  LOG      ✓ Ready in 5.5s
+[00:10:27.984] Browser ERROR   ./app/page.tsx:2:1
+Parsing ecmascript source code failed
+  1 | import 
+> 2 | export default function Page() {
+    | ^^^^^^
+  3 |   return <h1>Hello, Next.js!</h1>
+  4 | }
+
+Expected 'from', got 'export'
+[00:10:37.980] Browser ERROR   ./app/page.tsx:2:1
+Parsing ecmascript source code failed
+  1 | import Rajesh
+> 2 | export default function Page() {
+    | ^^^^^^
+  3 |   return <h1>Hello, Next.js!</h1>
+  4 | }
+
+Expected ',', got 'export'
+[00:14:23.007] Server  ERROR    ⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/rajesh'
+> 1 | import {} from "@/components/rajesh"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | export default function Page() {
+  3 |   return <h1>Hello, Next.js!</h1>
+  4 | }
+
+Import map: aliased to relative './components/rajesh' inside of [project]/src
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.008] Server  ERROR    ⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/rajesh'
+> 1 | import {} from "@/components/rajesh"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | export default function Page() {
+  3 |   return <h1>Hello, Next.js!</h1>
+  4 | }
+
+Import map: aliased to relative './components/rajesh' inside of [project]/src
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.009] Server  ERROR    ⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/rajesh'
+> 1 | import {} from "@/components/rajesh"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | export default function Page() {
+  3 |   return <h1>Hello, Next.js!</h1>
+  4 | }
+
+Import map: aliased to relative './components/rajesh' inside of [project]/src
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.010] Server  ERROR    ⨯ ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/rajesh'
+> 1 | import {} from "@/components/rajesh"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | export default function Page() {
+  3 |   return <h1>Hello, Next.js!</h1>
+  4 | }
+
+Import map: aliased to relative './components/rajesh' inside of [project]/src
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.985] Browser ERROR   ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/rajesh'
+> 1 | import {} from "@/components/rajesh"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | export default function Page() {
+  3 |   return <h1>Hello, Next.js!</h1>
+  4 | }
+
+Import map: aliased to relative './components/rajesh' inside of [project]/src
+
+https://nextjs.org/docs/messages/module-not-found
+[00:47:48.484] Server  LOG      ✓ Compiled in 2ms

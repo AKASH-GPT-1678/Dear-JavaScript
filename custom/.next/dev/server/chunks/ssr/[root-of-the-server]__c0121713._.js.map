@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///E:/Dear_javascript/custom/components/rajesh.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst Rajesh = () => {\r\n    return (\r\n        <div>\r\n            <p>Namste</p>\r\n\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Rajesh\r\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,SAAS;IACX,qBACI,6WAAC;kBACG,cAAA,6WAAC;sBAAE;;;;;;;;;;;AAIf;uCAEe","debugId":null}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///E:/Dear_javascript/custom/app/page.tsx"],"sourcesContent":["import Rajesh from \"@/components/rajesh\"\r\nexport default function Page() {\r\n  return (\r\n    <div><Rajesh /></div>\r\n  )\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AACe,SAAS;IACtB,qBACE,6WAAC;kBAAI,cAAA,6WAAC,gIAAM;;;;;;;;;;AAEhB","debugId":null}}]
+}

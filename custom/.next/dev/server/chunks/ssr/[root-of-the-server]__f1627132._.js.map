@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///E:/Dear_javascript/custom/app/page.tsx"],"sourcesContent":["import Rajesh from \"@/components/rajesh\"\r\nexport default function Page() {\r\n  return \r\n}"],"names":[],"mappings":";;;;AACe,SAAS;IACtB;AACF","debugId":null}}]
+}
