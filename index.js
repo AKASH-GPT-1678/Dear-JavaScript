@@ -1,44 +1,30 @@
-"use strict";
 
 
-const values = ["Mayank", "Virat", "Dhoni", "Sunil", "Shivam"];
-console.log(Array.isArray(values));
-console.log(Array.toString(values));
-console.log(Array.prototype);
-Array.prototype.sayHi = function () {
-  console.log("Hi!");
-}
 
-values.sayHi();
-
-values.unshift("Sheetal");
-console.log(values);
-console.log(values.indexOf("Mayank"));
-delete values[5];
-console.log(values);
-function makeLogging() {
-  console.log("Deewana hu Deewana");
-  return "Akash Gupta";
-}
-
-try {
-  const value = makeLogging();
-  console.log("Deewana hai Deewana" + value + "Chin ka deewana");
-
-} catch (error) {
-
-} finally {
-  console.log("Kaam Khatam Paisa Hajam");
-
-}
-
-console.log("My Directory" , __dirname);
-console.log("My File" , __filename);
+const user = new Object();
+user.name = "akash";
+user.place = "Delhi";
 
 
-let fruits = ["apple", "banana", "mango"];
+console.log(user);
+delete user.name;
 
-for (let fruit of fruits) {
-  console.log(fruit);
-}
-customElements.define("my-element", class extends HTMLElement {});
+console.log(user);
+const mapping = new Map();
+let users = {
+  name: "John",
+  age: 30,
+  "likes birds": true  // multiword property name must be quoted
+};
+
+console.log(users["likes birds"]);
+console.log(users["name"]);
+
+
+let obj1 = {
+    karma : "Deepesh",
+    age : 23
+};
+
+obj1.__proto__ = "Deepesh Singh";
+console.log(obj1);

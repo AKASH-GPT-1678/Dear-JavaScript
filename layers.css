@@ -1,0 +1,10 @@
+div {
+    color: red;
+    background-color: yellow;
+}
+
+
+p {
+    color: inherit;
+    background-color: inherit;
+}
