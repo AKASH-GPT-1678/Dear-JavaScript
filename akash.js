@@ -1,10 +1,11 @@
-var myObject = {
-    // define a getter for `a`
-    get a() {
-        return 2;
-    }
-};
-myObject.a;
 
-// 2
-console.log(myObject.a);
+var myObj = {
+    name: "John",
+    age: 30
+}
+var mumObj = {
+    page : 1,
+    limit : 10
+}
+
+var newObj = Object.create(mumObj);
