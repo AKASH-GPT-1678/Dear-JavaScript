@@ -7,7 +7,9 @@ export default function Home() {
   return (
     
     <div>
-      <button onClick={()=> router.push("/blog/rajesh")}> Visist slug</button>
+      <div className="draggable">
+        <p>Hello My name is akash gupta</p>
+      </div>
 
     </div>
   );
